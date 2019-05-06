@@ -9,3 +9,7 @@ a.navbarlink{
     color: #FFF;
     text-decoration:none;
 }
+
+#galleryList li {
+    display:inline;
+}
