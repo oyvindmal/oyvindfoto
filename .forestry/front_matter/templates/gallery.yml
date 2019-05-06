@@ -22,6 +22,11 @@ fields:
   config:
     required: false
   label: Sted
+- name: frontimage
+  type: file
+  config:
+    maxSize: 250
+  label: Forside bilde
 - name: images
   type: image_gallery
   config: {}
