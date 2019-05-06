@@ -1,3 +1,34 @@
 {{ define "main" }}
-    HEI PÅ SEG
+<div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+                {{ range .Pages }}
+ 
+                <div class="mdc-layout-grid__cell--span-3">
+                        <div class="mdc-card" >
+                                <div class="mdc-card__primary-action">
+                                  <div class="mdc-card__media mdc-card__media--16-9" style="background:url(https://res.cloudinary.com/diqqj8zmu/image/upload/w_600{{.Params.frontimage}})">
+                                    <div class="mdc-card__media-content" style="padding:10px;  ">
+                                   <h2 style="background:rgba(255,255,255,0.5); padding:5px; position: absolute; bottom:0; left:0;" class="mdc-typography mdc-typography--headline6">{{.Title}}</h2>
+                                    </div>
+                                  </div>
+                            
+                                </div>
+                                <div style="padding-left:10px;">
+                                    
+                                    <p>{{.Params.Location}}</p>
+                                </div>
+                                <div class="mdc-card__actions">
+                                  <div class="mdc-card__action-buttons">
+                                    <a href="{{.Permalink}}"class="mdc-button mdc-card__action mdc-card__action--button">
+                                      <span class="mdc-button__label">Se &raquo;</span>
+                                    </a>
+                                   
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                </div>
+            {{ end }}
+        </div>
+</div>
 {{ end}}
