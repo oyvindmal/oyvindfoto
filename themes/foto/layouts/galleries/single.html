@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h2>{{.Title}} - {{ .Params.Location}}</h2>
+<ul>
+    {{ range .Params.Images}}
+    <li><img src="https://res.cloudinary.com/diqqj8zmu/image/upload/w_200{{.}}"></li>
+    {{ end }}
+</ul>
+{{ end}}
+
