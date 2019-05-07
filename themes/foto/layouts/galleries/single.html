@@ -4,9 +4,10 @@
                         <div class="mdc-layout-grid__cell--span-10">
 <div class="mdc-card">
         
-
+        {{ $postCount := len .Params.images }}
+  
         <div style="padding-left:10px;">
-            <h2>{{.Title}} - {{.Params.Location}}</h2>
+            <h2>{{.Title}} - {{.Params.Location}} ({{ add $postCount 1}} bilder)</h2>
 
             <ul id="galleryList">
                 {{ range .Params.images}}
