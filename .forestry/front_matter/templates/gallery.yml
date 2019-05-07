@@ -32,5 +32,6 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/nordlys.md
 - content/galleries/the-gathering-2019.md
 - content/galleries/kveldsbilder.md
