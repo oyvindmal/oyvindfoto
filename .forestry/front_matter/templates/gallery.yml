@@ -32,6 +32,7 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/episerver-techforum.md
 - content/galleries/vigelandsparken-og-aker-brygge.md
 - content/galleries/landsturneringen-2017-dag-5.md
 - content/galleries/landsturneringen-2017-dag-4.md
