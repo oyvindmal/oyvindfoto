@@ -2,12 +2,6 @@
 label: 360Gallery
 hide_body: false
 fields:
-- name: type
-  type: text
-  config:
-    required: false
-  label: type
-  default: '360'
 - name: title
   type: text
   config:
@@ -43,6 +37,7 @@ fields:
   config:
     required: false
   label: layout
-  default: '360'
+  default: i360
+  hidden: true
 pages:
 - content/galleries/trehundreogsekstitest.md

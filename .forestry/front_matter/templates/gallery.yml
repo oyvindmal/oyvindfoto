@@ -41,6 +41,10 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/landsturneringen-2017-dag-2.md
+- content/galleries/landsturneringen-2017-dag-3.md
+- content/galleries/landsturneringen-2017-dag-1.md
+- content/galleries/landsturneringen-2017-dag-4.md
 - content/galleries/landsturneringen-2018-dag-1.md
 - content/galleries/mora.md
 - content/galleries/innsjø.md
@@ -56,10 +60,6 @@ pages:
 - content/galleries/the-gathering-2019.md
 - content/galleries/solnedgang.md
 - content/galleries/episerver-techforum.md
-- content/galleries/landsturneringen-2017-dag-2.md
-- content/galleries/landsturneringen-2017-dag-1.md
-- content/galleries/landsturneringen-2017-dag-4.md
-- content/galleries/landsturneringen-2017-dag-3.md
 - content/galleries/vigelandsparken-og-aker-brygge.md
 - content/galleries/landsturneringen-2017-dag-5.md
 - content/galleries/nordlys-2.md
