@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-10">
+<div class="mdc-card">
+        
+        {{ $postCount := len .Params.urls }}
+  
+        <div style="padding-left:10px;">
+            <h2>{{.Title}} - {{.Params.Location}} ({{ add $postCount 1}} bilder)</h2>
+
+            <p>tre hundre og seksti</p>
+            </div>
+
+</div>
+</div>
+</div>
+</div>
+
+{{ end }}
+
