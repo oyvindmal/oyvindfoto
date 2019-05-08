@@ -34,6 +34,7 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/is-1.md
 - content/galleries/is.md
 - content/galleries/vadsø-1.md
 - content/galleries/vinterbilder-2.md
