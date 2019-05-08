@@ -2,6 +2,13 @@
 label: Gallery
 hide_body: false
 fields:
+- name: type
+  type: text
+  config:
+    required: false
+  hidden: false
+  label: Type
+  default: photo
 - name: title
   type: text
   config:
@@ -33,13 +40,6 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
-- name: type
-  type: text
-  config:
-    required: false
-  hidden: false
-  label: Type
-  default: photo
 pages:
 - content/galleries/landsturneringen-2018-dag-1.md
 - content/galleries/mora.md
