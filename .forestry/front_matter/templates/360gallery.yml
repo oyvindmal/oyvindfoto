@@ -40,4 +40,5 @@ fields:
   default: i360
   hidden: true
 pages:
+- content/galleries/nordlyskatedralen.md
 - content/galleries/test-av-360kamera.md
