@@ -4,5 +4,5 @@ frontimage = "/v1557347251/150318-is-1.jpg"
 images = ["/v1557347250/150318-is-2.jpg", "/v1557347251/150318-is-1.jpg"]
 location = ["Vadsø"]
 title = "Is"
-
+type = "photo"
 +++
