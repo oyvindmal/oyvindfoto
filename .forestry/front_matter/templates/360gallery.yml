@@ -1,0 +1,48 @@
+---
+label: 360Gallery
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  default: '360'
+- name: title
+  type: text
+  config:
+    required: false
+  label: Tittel
+- name: date
+  type: datetime
+  label: Dato
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: urls
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Adresser
+  description: Adresser til 360 bilder
+- name: location
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Lokasjon
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: '360'
+pages:
+- content/galleries/trehundreogsekstitest.md
