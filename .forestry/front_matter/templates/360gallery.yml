@@ -44,3 +44,5 @@ fields:
     required: false
   label: layout
   default: '360'
+pages:
+- content/galleries/trehundreogsekstitest.md
