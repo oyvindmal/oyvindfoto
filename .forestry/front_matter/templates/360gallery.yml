@@ -7,6 +7,13 @@ fields:
   config:
     required: false
   label: Tittel
+- name: location
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Lokasjon
 - name: date
   type: datetime
   label: Dato
@@ -25,13 +32,11 @@ fields:
     max: 
   label: Adresser
   description: Adresser til 360 bilder
-- name: location
-  type: list
+- name: frontimage
+  type: file
   config:
-    use_select: false
-    min: 
-    max: 
-  label: Lokasjon
+    maxSize: 250
+  label: Forsidebilde
 - name: layout
   type: text
   config:
