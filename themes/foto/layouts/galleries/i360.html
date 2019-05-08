@@ -10,6 +10,11 @@
             <h2>{{.Title}} - {{.Params.Location}} ({{ add $postCount 1}} bilder)</h2>
 
             <p>tre hundre og seksti</p>
+            <ul>
+                    {{ range .Params.urls}}
+                        <li>{{.}}</li>
+                    {{ end }}
+            </ul>
             </div>
 
 </div>
