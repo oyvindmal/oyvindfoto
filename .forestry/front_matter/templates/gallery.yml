@@ -7,6 +7,13 @@ fields:
   config:
     required: false
   label: Tittel
+- name: location
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Sted
 - name: date
   type: datetime
   label: Dato
@@ -17,11 +24,6 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: location
-  type: text
-  config:
-    required: false
-  label: Sted
 - name: frontimage
   type: file
   config:
@@ -31,16 +33,6 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
-- name: test
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-    source:
-      type: simple
-  label: Test
-  description: Test
 pages:
 - content/galleries/solnedgang.md
 - content/galleries/episerver-techforum.md
