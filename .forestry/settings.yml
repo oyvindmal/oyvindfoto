@@ -11,6 +11,7 @@ sections:
   match: "*"
   new_doc_ext: md
   templates:
+  - 360gallery
   - gallery
 - type: directory
   path: content
