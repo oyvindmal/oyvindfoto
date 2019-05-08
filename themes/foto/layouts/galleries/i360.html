@@ -7,14 +7,15 @@
         {{ $postCount := len .Params.urls }}
   
         <div style="padding-left:10px;">
-            <h2>{{.Title}} - {{.Params.Location}} ({{ add $postCount 1}} bilder)</h2>
+            <h2>{{.Title}} - {{.Params.Location}} ({{ $postCount}} bilder)</h2>
 
-            <p>tre hundre og seksti</p>
-            <ul>
+            <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
                     {{ range .Params.urls}}
-                        <li>{{.}}</li>
+                    <div style="display:block; margin-bottom:10px;">
+                                <iframe src="https://360player.io/p/{{.}}/"   frameborder="0" width=560 height=315 allowfullscreen data-token="{{.}}"></iframe>
+                    </div>
                     {{ end }}
-            </ul>
+            
             </div>
 
 </div>
