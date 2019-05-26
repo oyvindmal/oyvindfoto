@@ -4,6 +4,6 @@ frontimage = "/v1557347757/mora050718-4.jpg"
 images = ["/v1557347756/mora050718-2.jpg", "/v1557347757/mora050718-3.jpg", "/v1557347757/mora050718-4.jpg", "/v1557347758/mora050718-1.jpg", "/v1557347770/mora060718-3.jpg", "/v1557347770/mora060718-1.jpg", "/v1557347771/mora060718-6.jpg", "/v1557347772/mora060718-5.jpg", "/v1557347771/mora060718-2.jpg", "/v1557347774/mora060718-4.jpg", "/v1557347776/mora060718-7.jpg", "/v1557347778/mora060718-9.jpg"]
 location = ["Mora"]
 title = "Mora"
-type = "photo"
+ 
 
 +++
