@@ -2,3 +2,5 @@ baseURL = "https://foto.oyvindmal.no"
 languageCode = "en-us"
 title = "foto.oyvindmal.no"
 theme = "foto"
+[taxonomies]
+  locations =  "locations"

@@ -7,8 +7,12 @@
         {{ $postCount := len .Params.urls }}
   
         <div style="padding-left:10px;">
-            <h2>{{.Title}} - {{.Params.Location}} ({{ $postCount}} bilder)</h2>
-
+            <h2>{{.Title}} ({{ $postCount}} bilder)</h2>
+                <ul>
+                        {{range .Params.Location}}
+                        <li>{{.}}</li>
+                    {{ end }}
+                </ul>
             <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
                     {{ range .Params.urls}}
                     <div style="display:block; margin-bottom:10px;">

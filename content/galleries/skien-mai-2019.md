@@ -2,7 +2,7 @@
 date = "2019-05-27T21:54:51+02:00"
 frontimage = "/v1559073039/APC_0247.jpg"
 images = ["/v1559073039/APC_0247.jpg", "/v1559073041/A9770E5D-C5FE-49E9-9EF9-80B8F5E20AAF.jpg", "/v1559073043/APC_0248.jpg", "/v1559073045/APC_0246.jpg", "/v1559073046/IMG_1026.jpg", "/v1559073047/IMG_1035.jpg", "/v1559073049/F77CBB62-A3AD-4038-B96F-2757C3E04491.jpg", "/v1559073049/APC_0244.jpg", "/v1559073050/APC_0245.jpg", "/v1559073051/APC_0249.jpg", "/v1559073054/IMG_1044.png"]
-location = ["Skien", "Oslo Lufthavn", "Vadsø"]
+locations =  ["Skien", "Oslo Lufthavn", "Vadsø"]
 title = "Skien Mai 2019"
 
 +++

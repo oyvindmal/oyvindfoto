@@ -7,8 +7,12 @@
         {{ $postCount := len .Params.images }}
   
         <div style="padding-left:10px;">
-            <h2>{{.Title}} - {{.Params.Location}} ({{ add $postCount 1}} bilder)</h2>
-
+            <h2>{{.Title}} ({{ add $postCount 1}} bilder)</h2>
+            <ul>
+                {{range .Params.Location}}
+                <li>{{.}}</li>
+            {{ end }}
+            </ul>
             <ul id="galleryList">
                 {{ range .Params.images}}
                 <li><a class="galleryimage" href="https://res.cloudinary.com/diqqj8zmu/image/upload/w_800{{.}}"><img src="https://res.cloudinary.com/diqqj8zmu/image/upload/w_250,h_250,c_fill{{.}}"></a></li>
