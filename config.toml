@@ -4,3 +4,4 @@ title = "foto.oyvindmal.no"
 theme = "foto"
 [taxonomies]
   locations =  "locations"
+  tags = "tags"
