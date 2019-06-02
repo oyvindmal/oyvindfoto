@@ -1,10 +1,15 @@
 {{ define "main" }}
 <h1>Tagger</h1>
-<ul>
-    {{ range .Pages }}
-        <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
-    {{ end }}
-</ul>
 
 
+<div class="mdc-chip-set">
+        {{ range .Pages }}
+        <div class="mdc-chip" tabindex="0">
+               
+          <div class="mdc-chip__text"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+          
+        </div>
+        {{ end }}
+        
+      </div>
 {{ end }}
