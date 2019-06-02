@@ -24,6 +24,10 @@ fields:
     time_format: 
     display_utc: false
   default: now
+- name: tags
+  type: tag_list
+  default: []
+  label: Tagger
 - name: frontimage
   type: file
   config:
@@ -36,10 +40,11 @@ fields:
 pages:
 - content/galleries/innsjø.md
 - content/galleries/vadsø-1.md
-- content/galleries/is-1.md
 - content/galleries/landsturneringen-2017-dag-3.md
 - content/galleries/vinterbilder-1.md
 - content/galleries/the-gathering-2019.md
+- content/galleries/oslo.md
+- content/galleries/is-1.md
 - content/galleries/fototur-til-vardo-persfjorden.md
 - content/galleries/vinterbilder.md
 - content/galleries/is.md

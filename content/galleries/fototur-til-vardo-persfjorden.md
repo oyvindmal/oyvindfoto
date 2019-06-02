@@ -1,7 +1,9 @@
-﻿+++
++++
 date = "2019-05-25T10:09:13+02:00"
 frontimage = "/v1558771601/48DA11A0-9E3D-4D71-B9E4-778925A7402F.jpg"
 images = ["/v1558771600/F466E84F-09D5-4A6F-8ED3-8BF6E2A80E4C.jpg", "/v1558771601/0452F338-4174-44EF-82C7-C5CBDBFE4D77.jpg", "/v1558771601/E125B81C-A4C5-4B23-8F31-E3834EFF2CAF.jpg", "/v1558771601/48DA11A0-9E3D-4D71-B9E4-778925A7402F.jpg", "/v1558771601/CA6B594A-8994-4FFD-B690-A9439262D950.jpg", "/v1558771601/A69DEBB7-61EB-4E80-9997-B4C33F7B5F5A.jpg"]
-locations =  ["Persfjorden", "Vardø"]
+locations = ["Persfjorden", "Vardø"]
+tags = ["Finnmark", "Sommer", "Midnattsol"]
 title = "Fototur til Vardø/Persfjorden"
+
 +++

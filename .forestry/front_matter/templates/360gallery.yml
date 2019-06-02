@@ -7,6 +7,10 @@ fields:
   config:
     required: false
   label: Tittel
+- name: tags
+  type: tag_list
+  default: []
+  label: Tagger
 - name: locations
   type: list
   config:
