@@ -8,11 +8,45 @@
   
         <div style="padding-left:10px;">
             <h2>{{.Title}} ({{ $postCount}} bilder)</h2>
-                <ul>
-                        {{range .Params.Locations}}
-                        <li><a href="/locations/{{ . | urlize }}">{{.}}</a></li>
-                    {{ end }}
-                </ul>
+            <div class="mdc-layout-grid">
+                    <div class="mdc-layout-grid__inner">
+                            <div class="mdc-layout-grid__cell">
+                                    <p><strong>Lokasjoner</strong></p>
+                                    <div class="mdc-chip-set">
+
+                                            {{range .Params.Locations}}
+
+                                            <div class="mdc-chip" tabindex="0">
+                                                    <div class="mdc-chip__text"><a
+                                                                    href="/locations/{{ . | urlize }}">{{.}}</a>
+                                                    </div>
+
+                                            </div>
+                                            {{ end }}
+
+                                    </div>
+                            </div>
+                            <div class="mdc-layout-grid__cell">
+                                    <p><strong>Tagger</strong></p>
+                                    <div class="mdc-chip-set">
+
+                                            {{range .Params.Tags}}
+
+                                            <div class="mdc-chip" tabindex="0">
+                                                    <div class="mdc-chip__text"><a
+                                                                    href="/tags/{{ . | urlize }}">{{.}}</a>
+                                                    </div>
+
+                                            </div>
+                                            {{ end }}
+
+                                    </div>
+
+                            </div>
+                    </div>
+
+
+            </div>
             <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
                     {{ range .Params.urls}}
                     <div style="display:block; margin-bottom:10px;">
