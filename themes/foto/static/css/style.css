@@ -3,13 +3,15 @@ body {
     background: rgb(230, 230, 230);
     margin:0 ;
     padding:0;
+   
 }
 
-a.navbarlink{
-    color: #FFF;
+.navbarlink, .navbarlink:active{
+    color: #FFF !important;
     text-decoration:none;
 }
 
 #galleryList li {
     display:inline;
 }
+
