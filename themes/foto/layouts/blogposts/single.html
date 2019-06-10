@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">   
+            <div class="mdc-card">
+                <div class="my-card-content">
+                    <h1 class="mdc-typography mdc-typography--headline2">{{.Title}}</h1>
+                </div>
+                
+                <div class="my-card__media mdc-card__media mdc-card__media--16-9" style="background-image: url({{.Params.frontimage}});">                                           
+                </div>
+                <div class="my-card-content">
+                    <p class="summary">{{.Params.summary}}</p>
+                    <p class="mdc-typography--subtitle2">Publisert {{ .Date.Format "2. Jan 2006 15:04" }}</p>
+                        {{.Content}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

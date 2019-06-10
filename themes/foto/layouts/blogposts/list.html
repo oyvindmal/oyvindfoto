@@ -1,0 +1,34 @@
+
+{{ define "main" }}
+
+<div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            {{ range .Pages }} 
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">   
+                    <div class="mdc-card mdc-card--outlined">
+                            <div class="my-card__media mdc-card__media mdc-card__media--16-9" style="background-image: url({{.Params.frontimage}});">
+                                    
+                                  </div>
+                        <div class="my-card-content">
+                                <h2 class="mdc-typography mdc-typography--headline5">{{.Title}}</h2>
+                                <p class="mdc-typography--subtitle2">{{ .Date.Format "2. Jan 2006" }}</p>
+                                <p>{{.Params.summary}}</p>
+                                
+                        </div>
+                            <div class="mdc-card__actions">
+                                    <a class="mdc-button mdc-card__action mdc-card__action--button" href="{{.Permalink}}">
+                                    
+                                      <span class="mdc-button__label">Les mer</span>
+                                    </a>
+                                 
+                                  </div>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+
+    </div>
+
+
+
+{{ end }}
