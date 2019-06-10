@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "Velkommen"
 date: 2019-06-10T15:46:09+02:00
-draft: true
+draft: false
 ---
 
-INDEX!!!
+Ikke mye her enda
