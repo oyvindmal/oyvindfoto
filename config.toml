@@ -1,6 +1,6 @@
 baseURL = "https://www.oyvindmal.no"
 languageCode = "en-us"
-title = "foto.oyvindmal.no"
+title = "Øyvind Malin"
 theme = "foto"
 [taxonomies]
   locations =  "locations"
