@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="mdc-card" style="padding:10px">
+        <h1>Prosjekter</h1>
+            <p>Foreløbig bare en liste med linker til github.</p>
+                {{ $urlPre := "https://api.github.com" }}
+                {{ $gistJ := getJSON $urlPre "/users/oyvindmal/repos" }}
+                {{ range $gistJ }}
+                        {{if not .fork}}
+                        <h2>{{.name}}</h2>
+                        <p>{{.description}}</p>
+                        <a href="{{.html_url}}"class="button">Se</a>
+                        {{ end }}
+               
+                  
+                {{ end }}
+              
+        </div>
+{{ end }}
