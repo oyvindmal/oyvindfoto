@@ -1,5 +1,8 @@
 {{ define "main" }}
+<div class="mdc-card">
 <h1>Album - Tagget: {{.Title}}</h1>
+{{.Content}}
+</div>
 <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
             {{ range .Pages }}

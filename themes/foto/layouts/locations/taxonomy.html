@@ -1,5 +1,9 @@
 {{ define "main" }}
-<h1>Album - Lokasjon: {{.Title}}</h1>
+<div class="mdc-card">
+    <h1>Album - Lokasjon: {{.Title}}</h1>
+    {{.Content}}
+</div>
+
 <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
             {{ range .Pages }}
@@ -37,4 +41,5 @@
         {{ end }}
     </div>
 </div>
+
 {{ end }}
