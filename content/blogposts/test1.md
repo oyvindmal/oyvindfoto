@@ -1,9 +1,9 @@
 ---
-title: "Test1"
-date: 2019-04-07T09:49:34+02:00
+title: "Dette er en testbloggpost"
+date: 2019-06-13T00:46:09+02:00
 draft: true
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut diam nunc. Curabitur blandit, ante a pulvinar pulvinar, ligula ipsum varius erat, non pulvinar lectus orci et purus."
-frontimage: "http://placekitten.com/800/800"
+frontimage: "/v1557347251/150318-is-1.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut diam nunc. Curabitur blandit, ante a pulvinar pulvinar, ligula ipsum varius erat, non pulvinar lectus orci et purus. Praesent quis dolor maximus, bibendum eros vel, auctor mauris. Donec a luctus dui. Nunc sodales metus eu dolor dignissim, vitae dapibus ligula porta. Ut in ligula viverra, accumsan enim sed, eleifend dolor. Etiam tempus nibh vitae nisl gravida, a euismod justo dictum. Suspendisse id nisi purus. Cras tincidunt imperdiet dapibus. Aliquam lorem ex, semper nec faucibus sit amet, scelerisque vitae erat. Vivamus interdum aliquam est vitae convallis. Quisque tempus vitae leo at fringilla. Vestibulum fermentum fringilla convallis. Duis nec ipsum id nibh porttitor maximus maximus in velit.
