@@ -38,6 +38,7 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/ndc-2019.md
 - content/galleries/varangerfjorden.md
 - content/galleries/junivær.md
 - content/galleries/is-1.md
