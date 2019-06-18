@@ -5,7 +5,23 @@
             {{ range .Pages }}
             {{ if ne .Section "pages" }}
             <div class="mdc-card" style="margin:20px; padding:10px;">
-              <h1>{{.Title}}</h1>
+              <h1 class="mdc-typography--headline4">{{.Title}}
+                  <span class="mdc-typography--subtitle1">
+                {{if eq .Section "galleries"}}
+                    {{if eq .Params.layout "i360"}}
+                      360-galleri
+
+                    {{else}}
+                    Bildegalleri
+                    {{ end }}
+                    
+                {{ end }}
+
+                {{if eq .Section "blogposts"}}
+                    Bloggpost
+                {{ end }}
+              </span>
+              </h1>
               <img style="width:600px;" src="https://res.cloudinary.com/diqqj8zmu/image/upload/w_600{{.Params.frontimage}}" />
               {{.Summary}}
               <div class="mdc-card__actions">
