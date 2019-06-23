@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
+    <body class="mdc-typography">
+       
+
+        <div class="mdc-layout-grid">
+                <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-2">
+                                <div class="mdc-card cardstyle" id="profile">
+                                        {{- partial "header.html" . -}}
+                              <p><img id="profileimage" src="/img/oyvind.jpg" alt="Bilde av Øyvind"></p>
+                              <p>Dette er mitt personlige nettsted hvor jeg deler innhold jeg produserer. Foreløbig er det bare ett bildegalleri her, men det kommer plutselig mere.</p>
+                              <p>Alle bilder på denne nettsiden er beskyttet av åndsverkloven og bruk av bilder må ikke skje uten samtykke på forhånd.</p>
+                           
+                              <div class="socialicons">
+                                  <a href="https://www.instagram.com/oyvindmal/"><img src="/icons/social-1_logo-instagram.svg"></a>
+                                  <a href="https://www.twitter.com/oyvindmal/"><img src="/icons/social-1_logo-twitter.svg"></a>
+                                    <a href="https://www.github.com/oyvindmal/"><img src="/icons/social-1_logo-github.svg"></a>
+                              </div>
+                              {{- partial "footer.html" . -}}
+                              </div>
+                          </div>
+                  
+                  <div class="mdc-layout-grid__cell--span-10">
+                      
+                      {{- block "main" . }}{{- end }}
+                      
+                    </div>
+
+                    <!--div class="mdc-layout-grid__cell--span-2">
+                            <div class="mdc-card cardstyle" >
+                                   <p>Blabla meny lol her </p>
+                            </div>
+                     
+                      </div -->
+            
+                </div>
+              </div>
+        
+     
+        
     </body>
 </html>

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="mdc-card cardstyle">
+<h1>Lokasjoner</h1>
+<div class="mdc-chip-set">
+        {{ range .Pages }}
+        <div class="mdc-chip" tabindex="0">
+               
+          <div class="mdc-chip__text"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+          
+        </div>
+        {{ end }}
+        
+      </div>
+    </div>
+{{ end }}

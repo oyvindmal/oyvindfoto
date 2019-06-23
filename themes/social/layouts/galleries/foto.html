@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-10">
+<div class="mdc-card">
+        
+        {{ $postCount := len .Params.images }}
+  
+        <div style="padding-left:10px;">
+            <h2>{{.Title}} ({{ add $postCount 1}} bilder)</h2>
+            <div class="mdc-layout-grid">
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell">
+                            <p><strong>Lokasjoner</strong></p>
+                            <div class="mdc-chip-set">
+
+                                {{range .Params.Locations}}
+
+                                <div class="mdc-chip" tabindex="0">
+                                    <div class="mdc-chip__text"><a href="/locations/{{ . | urlize }}">{{.}}</a>
+                                    </div>
+
+                                </div>
+                                {{ end }}
+
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__cell">
+                            <p><strong>Tagger</strong></p>
+                            <div class="mdc-chip-set">
+
+                                {{range .Params.Tags}}
+
+                                <div class="mdc-chip" tabindex="0">
+                                    <div class="mdc-chip__text"><a href="/tags/{{ . | urlize }}">{{.}}</a>
+                                    </div>
+
+                                </div>
+                                {{ end }}
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+      
+            <ul id="galleryList">
+                {{ range .Params.images}}
+                <li><a class="galleryimage" href="https://res.cloudinary.com/diqqj8zmu/image/upload/w_800{{.}}"><img src="https://res.cloudinary.com/diqqj8zmu/image/upload/w_250,h_250,c_fill{{.}}"></a></li>
+                {{ end }}
+            </ul>
+            </div>
+
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/js/box.js"></script>
+{{ end }}
+
