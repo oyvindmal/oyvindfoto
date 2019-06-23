@@ -1,6 +1,23 @@
 {{ define "main" }}
 <div class="mdc-card cardstyle">
-<h1>Lokasjoner</h1>
+    <h2>Bilder fordelt på lokasjoner</h2>
+    <p>Bla i bilder:</p>
+    <div class="mdc-chip-set">
+         
+            <div class="mdc-chip" tabindex="0">
+                    <div class="mdc-chip__text"><a href="/galleries">Alle</a></div>
+                  </div>
+
+                  <div class="mdc-chip" tabindex="0">
+                        <div class="mdc-chip__text"><a href="/tags">Tagger</a></div>
+                      </div>
+        
+           
+            
+          </div>
+</div>
+<div class="mdc-card cardstyle">
+
 <div class="mdc-chip-set">
         {{ range .Pages }}
         <div class="mdc-chip" tabindex="0">
