@@ -35,6 +35,11 @@ footer{
     text-decoration: none;
 }
 
+.mdc-chip__text a{
+    color: #000;
+    text-decoration: none;
+}
+
 .socialicons img {
     width:24px;
 }
