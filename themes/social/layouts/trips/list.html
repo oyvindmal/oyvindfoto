@@ -1,0 +1,10 @@
+{{ define "main"}}
+<div class="mdc-card cardstyle">
+    <h2>Reiseblogger</h2>
+    <ul>
+        {{ range .Pages}}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    </div>
+{{ end }}

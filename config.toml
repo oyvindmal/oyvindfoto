@@ -5,3 +5,4 @@ theme = "social"
 [taxonomies]
   locations =  "locations"
   tags = "tags"
+  trip = "trips"
