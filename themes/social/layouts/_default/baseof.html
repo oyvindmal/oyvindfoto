@@ -45,38 +45,51 @@
                               </div>
                           
                           </div>
-                          {{if eq .Section "galleries"}}
-                  <div class="mdc-layout-grid__cell--span-8">
+                          {{if or (eq .Section "galleries") (eq .Data.Plural "tags") (eq .Data.Plural "locations")}}
+                            <div class="mdc-layout-grid__cell--span-8">
+
+                          {{else}}
+
+                          <div class="mdc-layout-grid__cell--span-10"></div>
                         {{ end }}
 
-                        {{if ne .Section "galleries"}}
-                        <div class="mdc-layout-grid__cell--span-10">
-                              {{ end }}
                       {{- block "main" . }}{{- end }}
                       
                     </div>
-                    {{if eq .Section "galleries"}}
+                    {{if or (eq .Section "galleries") (eq .Data.Plural "tags") (eq .Data.Plural "locations")}}
                     <div class="mdc-layout-grid__cell--span-2">
+                            
+
                             <div class="mdc-card cardstyle" >
-                                <h4>Navigasjon</h4>
-                                    <ul class="menu">
-                                            <li>
-                                                    <a href="/galleries"><div class="mdc-button">
-                                                       <span class="mdc-button__label">Alle bildegallerier</span>
-                                                     </div></a>
-                                                 </li>
-                                            <li>
-                                                    <a href="/locations"><div class="mdc-button">
-                                                       <span class="mdc-button__label">Lokasjoner</span>
-                                                     </div></a>
-                                                 </li>
-                                           <li>
-                                               <a href="/tags"><div class="mdc-button">
-                                                  <span class="mdc-button__label">Tagger</span>
-                                                </div></a>
-                                            </li>
-    
-                                       </ul>
+                                <h4>Tagger</h4>
+                                <div class="mdc-chip-set">
+                                    {{  range .Site.Taxonomies.tags.ByCount}}
+                                    <div class="mdc-chip" tabindex="0">
+                                           
+                                      <div class="mdc-chip__text"><a href="/tags/{{.Term}}">{{ .Term }}</a></div>
+                                      
+                                    </div>
+                                    {{ end }}
+                                    
+                                  </div>
+                            
+                                </div>
+
+                                
+                            <div class="mdc-card cardstyle" >
+                                <h4>Lokasjoner</h4>
+                                <div class="mdc-chip-set">
+                                    {{  range .Site.Taxonomies.locations.ByCount}}
+                                    <div class="mdc-chip" tabindex="0">
+                                           
+                                      <div class="mdc-chip__text"><a href="/locations/{{.Term}}">{{ .Term }}</a></div>
+                                      
+                                    </div>
+                                    {{ end }}
+                                    
+                                  </div>
+                            
+                                </div>
                             </div>
                      
                       </div>

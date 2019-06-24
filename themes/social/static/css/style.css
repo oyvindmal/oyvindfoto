@@ -59,3 +59,7 @@ footer{
 .menu li a div.mdc-button {
     color:#4b4b4b;
 }
+
+.mdc-chip__text {
+    text-transform: capitalize;
+}
