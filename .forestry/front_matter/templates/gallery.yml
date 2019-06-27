@@ -38,6 +38,7 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/ferie-2019-mosjön.md
 - content/galleries/tester-panasonic-lumix-g9-med-fototur.md
 - content/galleries/ndc-2019.md
 - content/galleries/varangerfjorden.md
