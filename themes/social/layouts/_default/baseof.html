@@ -6,7 +6,7 @@
 
         <div class="mdc-layout-grid">
                 <div class="mdc-layout-grid__inner">
-                        <div class="mdc-layout-grid__cell--span-2">
+                        <div class="mdc-layout-grid__cell--span-2 mdc-layout-grid__cell--span-12-phone">
                                 <div class="mdc-card cardstyle" id="profile">
                                         {{- partial "header.html" . -}}
                               <p><img id="profileimage" src="/img/oyvind.jpg" alt="Bilde av Øyvind"></p>
@@ -46,18 +46,18 @@
                           
                           </div>
                           {{if or (eq .Section "galleries") (eq .Data.Plural "tags") (eq .Data.Plural "locations")}}
-                            <div class="mdc-layout-grid__cell--span-8">
+                            <div class="mdc-layout-grid__cell--span-8 mdc-layout-grid__cell--span-12-phone">
 
                           {{else}}
 
-                          <div class="mdc-layout-grid__cell--span-10">
+                          <div class="mdc-layout-grid__cell--span-10 mdc-layout-grid__cell--span-12-phone">
                         {{ end }}
 
                       {{- block "main" . }}{{- end }}
                       
                     </div>
                     {{if or (eq .Section "galleries") (eq .Data.Plural "tags") (eq .Data.Plural "locations")}}
-                    <div class="mdc-layout-grid__cell--span-2">
+                    <div class="mdc-layout-grid__cell--span-2 mdc-layout-grid__cell--span-12-phone">
                             
 
                             <div class="mdc-card cardstyle" >
