@@ -63,3 +63,12 @@ footer{
 .mdc-chip__text {
     text-transform: capitalize;
 }
+
+.feedfooter {
+    margin:10px 0 10px 0;
+    text-align:center;
+}
+.feedfooter a {
+    color: #000;
+    text-decoration: none;
+}
