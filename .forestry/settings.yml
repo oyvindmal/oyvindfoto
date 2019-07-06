@@ -16,8 +16,8 @@ sections:
   match: "*"
   new_doc_ext: md
   templates:
-  - 360gallery
   - gallery
+  - 360gallery
 - type: directory
   path: content
   label: Pages
