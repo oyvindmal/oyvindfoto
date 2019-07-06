@@ -3,44 +3,23 @@
 {{ range first 12 .Pages }}
 {{ if ne .Section "pages" }}
 {{ $postCount := len .Params.images }}
-<div class="mdc-card cardstyle">
-        <h2>{{.Title}} <span class="mdc-typography--subtitle2">{{ .Date.Format "2. Jan 2006" }}</span></h2> 
-        {{.Content}}
-        <ul id="galleryList">
-                {{ range .Params.images}}
-                <li><a class="galleryimage"
-                                href="https://res.cloudinary.com/diqqj8zmu/image/upload/w_800{{.}}"><img
-                                        src="https://res.cloudinary.com/diqqj8zmu/image/upload/w_250,h_250,c_fill{{.}}"></a>
-                </li>
-                {{ end }}
-        </ul>
-
-        <a href="{{.Permalink}}" class="gallerymorebtn">
-                <div class="mdc-button">
-                        <i class="material-icons">
-                        photo_camera
-                        </i>
-                      <span class="mdc-button__label">&nbsp; Se {{ add $postCount 1}} bilder</span>
-                    </div>
-        </a>
-</div>
-{{ end }}
-{{ end }}
-
-<div class="feedfooter">
-        <a href="/galleries">
-                <div class="mdc-button">
-                        <i class="material-icons">
-                        photo_camera
-                        </i>
-                      <span class="mdc-button__label">Se flere bilder</span>
-                    </div>
-        </a>
-</div>
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="/js/box.js"></script>
+<div class="mdc-card imagecard">
+        <div class="mdc-card__primary-action imagecard__primary-action" tabindex="0">
+          <div class="mdc-card__media mdc-card__media--16-9 imagecard__media" style="background-image: url(&quot;https://res.cloudinary.com/diqqj8zmu/image/upload/w_900{{.Params.frontimage}}&quot;);"></div>
+          <div class="imagecard__primary">
+            <h2 class="imagecard__title mdc-typography mdc-typography--headline4">{{.Title}}</h2>
+            <h3 class="imagecard__subtitle mdc-typography mdc-typography--subtitle2">{{ .Date.Format "2. Jan 2006" }}</h3>
+          </div>
+          <div class="imagecard__secondary mdc-typography mdc-typography--body2">{{.Content}}</div>
+        </div>
+        <div class="mdc-card__actions">
+          <div class="mdc-card__action-buttons">
+            <a  class="mdc-button mdc-card__action mdc-card__action--button" href="{{.Permalink}}">Vis {{ add $postCount 1}} bilder</a>
+     
+          </div>
+          
+        </div>
+      </div>
+{{end}}
+{{end}}
 {{ end }}
