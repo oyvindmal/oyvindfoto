@@ -38,6 +38,7 @@ fields:
   config: {}
   label: Bilder
 pages:
+- content/galleries/siljan.md
 - content/galleries/romakloster.md
 - content/galleries/landskap-på-gotland.md
 - content/galleries/kalksteinsgruve-på-gotland.md
