@@ -37,16 +37,22 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
+- name: trips
+  type: text
+  config:
+    required: false
+  label: Reise
+  description: Kobler innlegget opp mot en reise
 pages:
+- content/galleries/kalksteinsgruve-på-gotland.md
+- content/galleries/ferie-2019-dag-3.md
 - content/galleries/oxbergsbroen.md
 - content/galleries/siljan.md
 - content/galleries/romakloster.md
 - content/galleries/landskap-på-gotland.md
-- content/galleries/kalksteinsgruve-på-gotland.md
 - content/galleries/ferie-2019-dag-5.md
 - content/galleries/ferie-2019-fergetur-til-gotland.md
 - content/galleries/ferie-2019-mosjön.md
-- content/galleries/ferie-2019-dag-3.md
 - content/galleries/tester-panasonic-lumix-g9-med-fototur.md
 - content/galleries/ndc-2019.md
 - content/galleries/varangerfjorden.md
