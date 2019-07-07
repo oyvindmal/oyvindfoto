@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range first 12 .Pages }}
+{{ range first 15 .Pages }}
 {{ if ne .Section "pages" }}
 {{ $postCount := len .Params.images }}
 <div class="mdc-card imagecard">
@@ -15,7 +15,11 @@
         <div class="mdc-card__actions">
           <div class="mdc-card__action-buttons">
             <a  class="mdc-button mdc-card__action mdc-card__action--button" href="{{.Permalink}}">Vis {{ add $postCount 1}} bilder</a>
-     
+            {{if isset .Params "trips"}}
+            <a  class="mdc-button mdc-card__action mdc-card__action--button" href="/trips/{{.Params.trips}}"><i class="material-icons">
+              card_travel
+              </i>&nbsp;{{.Params.trips}}</a>
+              {{end}}
           </div>
           
         </div>
