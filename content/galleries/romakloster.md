@@ -5,5 +5,5 @@ images = ["/v1562422225/C1B9C795-B789-47D2-8F07-EF76F1354086.jpg", "/v1562422226
 locations = ["Roma"]
 tags = ["Kloster", "Museum"]
 title = "Romakloster"
-
+trips = "ferie2019"
 +++

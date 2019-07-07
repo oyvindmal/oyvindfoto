@@ -4,30 +4,25 @@
     {{ .Content}}
 </div>
 {{ range .Pages}}
-<div class="mdc-card cardstyle">
-    {{ if eq .Section "tweets"}}
-    {{.Content}}
-    {{ end }}
-    {{ if eq .Section "instagrams"}}
-    {{.Content}}
-    {{ end }}
-    {{ if eq .Section "galleries"}}
-    <h1 class="mdc-typography--headline4">{{.Title}}
-                    
-        </h1>
-        <img style="width:600px;" src="https://res.cloudinary.com/diqqj8zmu/image/upload/w_600{{.Params.frontimage}}" />
-     
-        <div class="mdc-card__actions">
-            <div class="mdc-card__action-buttons">
-              <a href="{{.Permalink}}"class="mdc-button mdc-card__action mdc-card__action--button">
-                <span class="mdc-button__label">Vis &raquo;</span>
-              </a>
-             
-            </div>
-            
-          </div>
-    {{ end }}
 
-</div>
+{{ $postCount := len .Params.images }}
+<div class="mdc-card imagecard">
+        <div class="mdc-card__primary-action imagecard__primary-action" tabindex="0">
+          <div class="mdc-card__media mdc-card__media--16-9 imagecard__media" style="background-image: url(&quot;https://res.cloudinary.com/diqqj8zmu/image/upload/w_900{{.Params.frontimage}}&quot;);"></div>
+          <div class="imagecard__primary">
+            <h2 class="imagecard__title mdc-typography mdc-typography--headline4">{{.Title}}</h2>
+            <h3 class="imagecard__subtitle mdc-typography mdc-typography--subtitle2">{{ .Date.Format "2. Jan 2006" }}</h3>
+          </div>
+          <div class="imagecard__secondary mdc-typography mdc-typography--body2">{{.Content}}</div>
+        </div>
+        <div class="mdc-card__actions">
+          <div class="mdc-card__action-buttons">
+            <a  class="mdc-button mdc-card__action mdc-card__action--button" href="{{.Permalink}}">Vis {{ add $postCount 1}} bilder</a>
+     
+          </div>
+          
+        </div>
+      </div>
+
 {{ end }}
 {{ end }}

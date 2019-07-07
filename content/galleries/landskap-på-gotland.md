@@ -5,5 +5,5 @@ images = ["/v1562422098/429289D7-AB6B-4550-BEC3-6A0E52352334.jpg", "/v1562422099
 locations = ["Roma"]
 tags = ["Natur"]
 title = "Landskap på Gotland"
-
+trips = "ferie2019"
 +++

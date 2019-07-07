@@ -5,5 +5,5 @@ images = ["/v1562422366/5BD2E6BF-2D00-4CDC-8C78-F11ACDB6A162.jpg", "/v1562422368
 locations = ["Mora"]
 tags = ["Natur", "Innsjø"]
 title = "Siljan"
-
+trips = "ferie2019"
 +++

@@ -5,5 +5,5 @@ images = ["/v1562421953/35A90949-7D62-4CC4-9D3E-4F355F09EA15.jpg", "/v1562421954
 locations = ["Slite"]
 tags = ["Industri"]
 title = "Kalksteinsgruve på Gotland"
-
+trips = "ferie2019"
 +++

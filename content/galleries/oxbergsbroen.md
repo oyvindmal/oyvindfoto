@@ -5,7 +5,7 @@ images = ["/v1562448545/946DA372-F8A5-4A10-8E19-4511D1534067.jpg", "/v1562448547
 locations = ["Oxberg", "Mora"]
 tags = ["Infrastruktur", "Jernbane", "Elv", "Innsjø"]
 title = "Oxbergsbroen"
-
+trips = "ferie2019"
 +++
 Oxbergsbroen er noe så unikt som en kombinert bro for biltrafikk og jernbane. Den ble åpnet rundt år 1900. 
 
