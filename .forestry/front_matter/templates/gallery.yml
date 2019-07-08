@@ -44,6 +44,7 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 pages:
+- content/galleries/mora-røros.md
 - content/galleries/kalksteinsgruve-på-gotland.md
 - content/galleries/ferie-2019-dag-3.md
 - content/galleries/oxbergsbroen.md
