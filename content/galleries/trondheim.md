@@ -4,7 +4,7 @@ frontimage = "/v1562627680/trondheim-1.jpg"
 images = ["/v1562627680/trondheim-1.jpg"]
 locations = ["Trondheim"]
 tags = []
-title = "Trondheimn"
+title = "Trondheim"
 trips = "ferie2019"
 
 +++
