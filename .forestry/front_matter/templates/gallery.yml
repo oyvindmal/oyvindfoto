@@ -44,6 +44,7 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 pages:
+- content/galleries/gaula.md
 - content/galleries/dette-må-være-feil-vei.md
 - content/galleries/røros.md
 - content/galleries/mora-røros.md
