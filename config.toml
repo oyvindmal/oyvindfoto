@@ -1,7 +1,7 @@
 baseURL = "https://www.oyvindmal.no"
 languageCode = "en-us"
 title = "Øyvind Malin"
-theme = "social"
+theme = "strapped"
 [taxonomies]
   locations =  "locations"
   tags = "tags"
