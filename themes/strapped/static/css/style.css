@@ -56,3 +56,19 @@
     display:inline;
     margin:5px;
 }
+
+#profileimage
+{
+    width:20vh;
+    float:left;
+    margin-right:30px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(75%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(75%);
+}
+
+.leftimg{
+    width:30vh;
+    float:left;
+    margin-right:20px;
+}
