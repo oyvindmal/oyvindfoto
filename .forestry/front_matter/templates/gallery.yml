@@ -44,6 +44,7 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 pages:
+- content/galleries/pasvik-og-neiden.md
 - content/galleries/fototur-til-tana.md
 - content/galleries/vadsø.md
 - content/galleries/nordlys-2.md
