@@ -23,6 +23,7 @@ fields:
     required: false
   label: Modell
 pages:
+- content/equipment/500mm-f-8-f-32.md
 - content/equipment/lightroom-mobile.md
 - content/equipment/huawei-mate-10-pro.md
 - content/equipment/nikon-d3300.md
