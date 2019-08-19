@@ -44,13 +44,13 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 pages:
-- content/galleries/altalive-2019-sondre-justad.md
-- content/galleries/test-av-500mm-objektiv-fra-ebay.md
-- content/galleries/varangerfestivalen-2019-dag-1.md
-- content/galleries/altalive-2019-hollow-hearts.md
-- content/galleries/varangerfestivalen-2019-lisa-skoglund.md
-- content/galleries/pasvik-og-neiden.md
 - content/galleries/fototur-til-tana.md
+- content/galleries/pasvik-og-neiden.md
+- content/galleries/varangerfestivalen-2019-lisa-skoglund.md
+- content/galleries/altalive-2019-hollow-hearts.md
+- content/galleries/varangerfestivalen-2019-dag-1.md
+- content/galleries/test-av-500mm-objektiv-fra-ebay.md
+- content/galleries/altalive-2019-sondre-justad.md
 - content/galleries/vadsø.md
 - content/galleries/nordlys-2.md
 - content/galleries/landsturneringen-2017-dag-5.md
