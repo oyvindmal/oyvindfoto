@@ -22,3 +22,5 @@ fields:
   config:
     required: false
   label: Modell
+pages:
+- content/equipment/panasonic-lumix-g9.md
