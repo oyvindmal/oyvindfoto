@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/equipment
+  label: Utstyr
+  create: documents
+  match: "*"
+  templates:
+  - equipment
+- type: directory
   path: content/frontpages
   label: Forsideoppslag
   create: all
