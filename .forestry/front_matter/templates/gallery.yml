@@ -44,16 +44,14 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 - name: equipment
-  type: select
-  default: []
+  type: list
   config:
-    required: false
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
       type: pages
       section: utstyr
-      file: 
-      path: 
   label: Utstyr
 pages:
 - content/galleries/fototur-til-tana.md
