@@ -23,4 +23,5 @@ fields:
     required: false
   label: Modell
 pages:
+- content/equipment/panasonic-lumix-gx80.md
 - content/equipment/panasonic-lumix-g9.md
