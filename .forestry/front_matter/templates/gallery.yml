@@ -43,6 +43,18 @@ fields:
     required: false
   label: Reise
   description: Kobler innlegget opp mot en reise
+- name: equipment
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: utstyr
+      file: 
+      path: 
+  label: Utstyr
 pages:
 - content/galleries/fototur-til-tana.md
 - content/galleries/pasvik-og-neiden.md
