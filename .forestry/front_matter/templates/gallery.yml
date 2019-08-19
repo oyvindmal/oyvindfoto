@@ -44,6 +44,7 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 pages:
+- content/galleries/varangerfestivalen-2019-lisa-skoglund.md
 - content/galleries/varangerfestivalen-2019-dag-1.md
 - content/galleries/pasvik-og-neiden.md
 - content/galleries/fototur-til-tana.md
