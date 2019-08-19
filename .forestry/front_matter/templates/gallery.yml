@@ -44,6 +44,7 @@ fields:
   label: Reise
   description: Kobler innlegget opp mot en reise
 pages:
+- content/galleries/test-av-500mm-objektiv-fra-ebay.md
 - content/galleries/altalive-2019-sondre-justad.md
 - content/galleries/varangerfestivalen-2019-dag-1.md
 - content/galleries/altalive-2019-hollow-hearts.md
