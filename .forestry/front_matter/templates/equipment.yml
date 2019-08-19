@@ -23,6 +23,7 @@ fields:
     required: false
   label: Modell
 pages:
+- content/equipment/panasonic-lumix-g-vario-12-32mm-f-3-5-5-6-asph-mega-o-i-s.md
 - content/equipment/panasonic-lumix-g-vario-45-150mm-f-4-0-5-6-asph-mega-o-i-s.md
 - content/equipment/500mm-f-8-f-32.md
 - content/equipment/lightroom-mobile.md
