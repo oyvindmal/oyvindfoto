@@ -54,6 +54,7 @@ fields:
       section: utstyr
   label: Utstyr
 pages:
+- content/galleries/vestertana.md
 - content/galleries/varangerfestivalen-2019-lisa-skoglund.md
 - content/galleries/fototur-til-tana.md
 - content/galleries/pasvik-og-neiden.md
