@@ -23,6 +23,7 @@ fields:
     required: false
   label: Modell
 pages:
+- content/equipment/lightroom-mobile.md
 - content/equipment/huawei-mate-10-pro.md
 - content/equipment/nikon-d3300.md
 - content/equipment/panasonic-lumix-gx80.md
