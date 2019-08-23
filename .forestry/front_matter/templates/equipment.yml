@@ -1,0 +1,34 @@
+---
+label: Equipment
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Tittel
+- name: equipmentimage
+  type: file
+  config:
+    maxSize: 250
+  label: Bilde
+- name: manufacturer
+  type: text
+  config:
+    required: false
+  label: Produsent
+- name: model
+  type: text
+  config:
+    required: false
+  label: Modell
+pages:
+- content/equipment/sigma-30mm-f-2-8-dc-dn-art.md
+- content/equipment/panasonic-lumix-g-vario-12-32mm-f-3-5-5-6-asph-mega-o-i-s.md
+- content/equipment/panasonic-lumix-g-vario-45-150mm-f-4-0-5-6-asph-mega-o-i-s.md
+- content/equipment/500mm-f-8-f-32.md
+- content/equipment/lightroom-mobile.md
+- content/equipment/huawei-mate-10-pro.md
+- content/equipment/nikon-d3300.md
+- content/equipment/panasonic-lumix-gx80.md
+- content/equipment/panasonic-lumix-g9.md
